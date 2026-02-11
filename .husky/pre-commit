@@ -1,0 +1,8 @@
+# 1. Format changed files
+npx lint-staged
+
+# 2. Run Unit Tests (Ci mode)
+npm test -- --watchAll=false --passWithNoTests
+
+# 3. Final Production Build Check
+npm run build
