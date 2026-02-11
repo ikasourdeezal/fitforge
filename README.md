@@ -19,7 +19,7 @@
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/ikasourdeezal/fitforge.git](https://github.com/ikasourdeezal/fitforge.git)
+git clone https://github.com/ikasourdeezal/fitforge.git
 
 ```
 
