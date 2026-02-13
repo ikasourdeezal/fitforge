@@ -1,3 +1,3 @@
-import MainPageLayout from './MainPageLayout'
+import { MainPageLayout } from "./MainPageLayout";
 
-export { MainPageLayout }
+export { MainPageLayout };
