@@ -1,96 +1,95 @@
 //--INTERNAL IMPORTS
-import ProgressImg from 'styles/images/who-we-are/progresion.png'
-import WorkoutImg from 'styles/images/who-we-are/workout.png'
-import NutritionImg from 'styles/images/who-we-are/nutritions.png'
-import Trainer1 from 'styles/images/trainers/trainer1.png'
-import Trainer2 from 'styles/images/trainers/trainer2.png'
-import Trainer3 from 'styles/images/trainers/trainer3.png'
-import TestimonialImg from 'styles/images/testimonials/testimonial-new.jpg'
-import pricing1 from 'styles/images/pricing/img1.jpg'
-import pricing2 from 'styles/images/pricing/img2.jpg'
-import pricing3 from 'styles/images/pricing/img3.jpg'
+import ProgressImg from "/images/who-we-are/progresion.png";
+import WorkoutImg from "/images/who-we-are/workout.png";
+import NutritionImg from "/images/who-we-are/nutritions.png";
+import Trainer1 from "/images/trainers/trainer1.png";
+import Trainer2 from "/images/trainers/trainer2.png";
+import Trainer3 from "/images/trainers/trainer3.png";
+import TestimonialImg from "/images/testimonials/testimonial-new.jpg";
+import pricing1 from "/images/pricing/img1.jpg";
+import pricing2 from "/images/pricing/img2.jpg";
+import pricing3 from "/images/pricing/img3.jpg";
 
 export const mainNavList = [
   {
     id: 1,
-    url: '/',
-    title: 'Home',
+    url: "/",
+    title: "Home",
   },
   {
     id: 2,
-    url: '/about',
-    title: 'About',
+    url: "/about",
+    title: "About",
   },
   {
     id: 3,
-    url: '/gallery/1',
-    title: 'Gallery',
+    url: "/gallery/1",
+    title: "Gallery",
   },
   {
     id: 4,
-    url: '/schedule/monday',
-    title: 'Schedule',
+    url: "/schedule/monday",
+    title: "Schedule",
   },
   {
     id: 5,
-    url: '/blog',
-    title: 'Blog',
+    url: "/blog",
+    title: "Blog",
   },
   {
     id: 6,
-    url: '/pricing',
-    title: 'Pricing',
+    url: "/pricing",
+    title: "Pricing",
   },
   {
     id: 7,
-    url: '/classes',
-    title: 'Classes',
+    url: "/classes",
+    title: "Classes",
   },
   {
     id: 8,
-    url: '/contact',
-    title: 'Contact',
+    url: "/contact",
+    title: "Contact",
   },
-]
+];
 
 export const cardList = [
   {
     id: 1,
     img: ProgressImg,
-    title: 'Progress',
+    title: "Progress",
     description:
-      'Our team of experts will work with you to create a customized plan that helps you achieve success one step at a time.',
+      "Our team of experts will work with you to create a customized plan that helps you achieve success one step at a time.",
   },
   {
     id: 2,
     img: WorkoutImg,
-    title: 'Workout',
+    title: "Workout",
     description:
       " With a variety of workouts to choose from, you'll have everything you need to get into the best shape of your life.",
   },
   {
     id: 3,
     img: NutritionImg,
-    title: 'Nutritions',
+    title: "Nutritions",
     description:
-      'Our team will work with you to create a personalized meal plan that helps you reach your specific health goals.',
+      "Our team will work with you to create a personalized meal plan that helps you reach your specific health goals.",
   },
-]
+];
 
 export const trainers = [
-  { id: 1, img: Trainer1, name: 'John Lewis', job: 'Yoga Trainer' },
-  { id: 2, img: Trainer2, name: 'Jonathan Doe', job: 'Crossfit Trainer' },
-  { id: 3, img: Trainer3, name: 'Ana June', job: 'Personal Trainer' },
-]
+  { id: 1, img: Trainer1, name: "John Lewis", job: "Yoga Trainer" },
+  { id: 2, img: Trainer2, name: "Jonathan Doe", job: "Crossfit Trainer" },
+  { id: 3, img: Trainer3, name: "Ana June", job: "Personal Trainer" },
+];
 
 export const testimonials = [
   {
     id: 1,
     img: TestimonialImg,
-    name: 'Tony Stark',
-    job: 'CEO of Stark Industries',
-    text:
-      "I've been a member of FitForge for the past 6 months and it has been an amazing experience. The trainers are knowledgeable and supportive, the equipment is top-notch, and the community of members is friendly and encouraging.",
+    name: "Tony Stark",
+    job: "CEO of Stark Industries",
+    text: "I've been a member of FitForge for the past 6 months and it has been an amazing experience. The trainers are knowledgeable and supportive, the equipment is top-notch, and the community of members is friendly and encouraging.",
   },
   // {
   //   id: 2,
@@ -108,35 +107,35 @@ export const testimonials = [
   //   text:
   //     "I've been a member of FitForge for the past 6 months and it has been an amazing experience. The trainers are knowledgeable and supportive, the equipment is top-notch, and the community of members is friendly and encouraging.",
   // },
-]
+];
 
 export const pricings = [
   {
     id: 1,
     img: pricing1,
     price: 39,
-    title: 'Beginners',
-    rate: 'p/m',
+    title: "Beginners",
+    rate: "p/m",
     details: [
       {
         id: 1,
-        detail: 'Free Hand',
+        detail: "Free Hand",
       },
       {
         id: 2,
-        detail: 'Gym Fitness',
+        detail: "Gym Fitness",
       },
       {
         id: 3,
-        detail: 'Weight Loss',
+        detail: "Weight Loss",
       },
       {
         id: 4,
-        detail: 'Personal Trainer',
+        detail: "Personal Trainer",
       },
       {
         id: 5,
-        detail: 'Cycling',
+        detail: "Cycling",
       },
     ],
   },
@@ -144,28 +143,28 @@ export const pricings = [
     id: 2,
     img: pricing2,
     price: 65,
-    title: 'Expert',
-    rate: 'p/m',
+    title: "Expert",
+    rate: "p/m",
     details: [
       {
         id: 1,
-        detail: 'Free Hand',
+        detail: "Free Hand",
       },
       {
         id: 2,
-        detail: 'Gym Fitness',
+        detail: "Gym Fitness",
       },
       {
         id: 3,
-        detail: 'Weight Loss',
+        detail: "Weight Loss",
       },
       {
         id: 4,
-        detail: 'Personal Trainer',
+        detail: "Personal Trainer",
       },
       {
         id: 5,
-        detail: 'Cycling',
+        detail: "Cycling",
       },
     ],
   },
@@ -173,53 +172,53 @@ export const pricings = [
     id: 3,
     img: pricing3,
     price: 100,
-    title: 'PRO',
-    rate: 'p/m',
+    title: "PRO",
+    rate: "p/m",
     details: [
       {
         id: 1,
-        detail: 'Free Hand',
+        detail: "Free Hand",
       },
       {
         id: 2,
-        detail: 'Gym Fitness',
+        detail: "Gym Fitness",
       },
       {
         id: 3,
-        detail: 'Weight Loss',
+        detail: "Weight Loss",
       },
       {
         id: 4,
-        detail: 'Personal Trainer',
+        detail: "Personal Trainer",
       },
       {
         id: 5,
-        detail: 'Cycling',
+        detail: "Cycling",
       },
     ],
   },
-]
+];
 
 export const blogs = [
   {
     id: 1,
-    date: '22.03.2022',
-    title: 'Yoga For Everyone in 2023',
+    date: "22.03.2022",
+    title: "Yoga For Everyone in 2023",
     description:
-      'This is program designed to make the practice of yoga beneficial for people of all ages, abilities, and backgrounds,',
+      "This is program designed to make the practice of yoga beneficial for people of all ages, abilities, and backgrounds,",
   },
   {
     id: 2,
-    date: '13.09.2022',
-    title: 'Yoga For Everyone in 2023',
+    date: "13.09.2022",
+    title: "Yoga For Everyone in 2023",
     description:
-      'Learn how to ease back into your CrossFit routine after a vacation with tips and strategies for success.',
+      "Learn how to ease back into your CrossFit routine after a vacation with tips and strategies for success.",
   },
   {
     id: 3,
-    date: '28.06.2022',
-    title: 'Meet Fitness Ambassador Grace',
+    date: "28.06.2022",
+    title: "Meet Fitness Ambassador Grace",
     description:
-      'Get to know Grace, a fitness enthusiast and dedicated ambassador who is passionate about helping others reach their fitness goals.',
+      "Get to know Grace, a fitness enthusiast and dedicated ambassador who is passionate about helping others reach their fitness goals.",
   },
-]
+];
